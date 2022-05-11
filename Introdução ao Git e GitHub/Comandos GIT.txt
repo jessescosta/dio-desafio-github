@@ -79,13 +79,20 @@ git  config --global user.name "jessescosta"
 git add *  (Staged)
 git commit -m "commit inicial" (Staged para Unmodified)
 
+-- Após isso, o arquivo já estara comitado, mas localmente, ainda não está no repositorio github
+--para subir os objetos no repositorio
+git push origin main
+
+----para pegar o que ta no github para a maquina
+git pull origin main
+
 (QUando sai de Unmodified para Staged, ele aguarda o Commit pra voltar ao stagio Unmodified)
 echo > README.md 
 
 #verificar as configurações setadas 
 git config --list
 
-Adicionar repositorio no GITHUB (o nome origin é um alias)
+*** - Adicionar repositorio no GITHUB (o nome origin é um alias)
 git remote add origin https://github.com/jessescosta/livro-receitas.git
 
 listar repositorios remotos
@@ -99,5 +106,4 @@ git pull origin master
 
 clonar repositorio
 git clone https://github.com/python/cpython.git
-
 
