@@ -1,0 +1,103 @@
+## comandos Windows
+Navegar entre diretorios
+CD <pasta>
+cd / ou cd .. Retroceder diretorios
+
+cls limpar
+
+dir listar todos os diretorios
+TAB autocomplete 
+
+mkdir <nome da pasta> criar pastas
+
+cria o arquivo
+echo <arquivo> > hello.txt
+
+deletar arquivos de um diretorios
+del <diretorio>
+
+deletar diretorio
+rmdir <pasta> /S /Q
+
+estrutura do git
+Blob - Tree - Commit
+
+git init
+
+git clone <https://url-do-link>
+
+git remote rm origin
+
+git branch <nome-da-branch>
+
+git push -u <remote> <nome-da-branch>
+
+git branch 
+ou
+git branch --list
+
+git branch -d <nome-da-branch>
+
+git checkout <nome-da-ramificação>
+
+git checkout -b <nome-da-branch>
+
+git status
+
+git add <arquivo>
+
+git add -A
+
+git commit -m "mensagem explicando a mudança no código"
+
+git push <remote> <nome-do-branch>
+
+git push -u origin <nome-do-branch>
+
+git pull <remote>
+
+git revert 'número do hash'
+
+git log -- oneline
+
+git merge <nome-da-branch>
+
+## Inicio dos Comandos GIT ##
+
+git init
+git add
+git commit
+
+ls -a (mostra arquivos ocultos)
+
+<h1> configuração inicial:
+git  config --global user.email "jesse.dossantoscosta@gmail.com"
+git  config --global user.name "jessescosta"
+</h1>
+
+#pra adicionar o arquivo (processo de Untracked (Git nao conhece ainda o arquivo))
+git add *  (Staged)
+git commit -m "commit inicial" (Staged para Unmodified)
+
+(QUando sai de Unmodified para Staged, ele aguarda o Commit pra voltar ao stagio Unmodified)
+echo > README.md 
+
+#verificar as configurações setadas 
+git config --list
+
+Adicionar repositorio no GITHUB (o nome origin é um alias)
+git remote add origin https://github.com/jessescosta/livro-receitas.git
+
+listar repositorios remotos
+git remote -v
+
+para subir os objetos no repositorio
+git push origin master
+
+para pegar o que ta no github para a maquina
+git pull origin master
+
+clonar repositorio
+git clone https://github.com/python/cpython.git
+
+
