@@ -4,4 +4,6 @@ Repositório criado para desafio de projeto.
 ## Modulo 1
 
 ### Links Úteis
-[Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+-- [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+
+-- [Principais Comandos GIT](https://comandosgit.github.io/)
